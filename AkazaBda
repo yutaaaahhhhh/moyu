@@ -1,0 +1,24 @@
+local args = {
+    [2] = 102815.13002279999,
+    [3] = "Akaza_compass_needle_activate",
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("To_Server"):WaitForChild("Handle_Initiate_C"):FireServer(unpack(args))
+
+local args = {
+    [1] = "skil_ting_asd",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = "akaza_bda_compass_needle",
+    [4] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("To_Server"):WaitForChild("Handle_Initiate_S"):FireServer(unpack(args))
+
+local args = {
+    [1] = "skil_ting_asd",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = "akaza_bda_compass_needle",
+    [4] = 5
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("To_Server"):WaitForChild("Handle_Initiate_S"):FireServer(unpack(args))
